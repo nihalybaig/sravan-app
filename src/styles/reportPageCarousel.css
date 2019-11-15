@@ -1,0 +1,41 @@
+@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-slide img {
+  position: relative;
+  z-index: -1;
+  height: 300px;
+}
+
+.image-gallery {
+  width: 40%;
+  display: inline-block;
+  padding: 15px;
+}
+
+
+.carousel-links, .carousel-links:hover{
+  color: white;
+  text-decoration: none
+}
+
+.image-gallery-slide .image-gallery-description{
+  bottom: 500px;
+  left: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.image-gallery-play-button {
+  bottom: 60px;
+}
+
+.image-gallery-bullets {
+  bottom: 80px;
+}
+
+.result-img{
+  width: 100%;
+  padding: 15px;
+}
